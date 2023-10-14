@@ -1,0 +1,57 @@
+.signinscreen{
+    margin-left: 300px;
+    background-color: black;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    bottom: 80px;
+}
+.signinscreenforms{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 40px;
+   position: relative;
+}
+input{
+    padding: 10px;
+    position: relative;
+    top:30px;
+    background: #343434;
+    color: white;
+    outline: none;
+    height: 20px;
+    border: none;
+    margin-bottom: 10px;
+}
+::placeholder{
+    color: #999;
+}
+.submit{
+    margin-top: 30px;
+    background-color: red;
+    height: 40px;
+    width: 270px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem ;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    
+}
+.signinscreen>.signinscreenforms>form>h4{
+    text-align: left;
+    margin-top: 30px;
+}
+.signinscreen>.signinscreenforms>form>h1{
+    text-align: left;
+    margin-top: 25px;
+}
+.loginScreen__gray{
+    color: gray;
+}
+.loginScreen__link{
+    text-decoration: underline;
+    cursor: pointer;
+}
